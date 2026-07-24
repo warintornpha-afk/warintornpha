@@ -1,4 +1,4 @@
-shopping_calculator = '''
+
 # Shopping Calculator Template
 
 item_price = float(input("Enter item price: "))
@@ -10,7 +10,7 @@ tax_percent = float(input("Enter tax %: "))
 subtotal = item_price * quantity
 
 # TODO: Calculate discount amount ได้ส่วนลด
-discout = subtotal * (discount_percent / 100)
+discount = subtotal * (discount_percent / 100)
 
 # TODO: Calculate price after discount ราคาหลังแล้ว
 price = subtotal - discount
@@ -19,11 +19,10 @@ price = subtotal - discount
 tax = price * (tax_percent / 100)
 
 # TODO: Calculate final total สรุปต้องจ่ายเท่าไหร่
-final_total = price + tax
+Final_total = price + tax
 
 # TODO: Display itemized receipt พ่นออกมาหน้าจอ
-'''
-print("Subtotal = ", sutotal)
-print("Discond =  ", str(discond))
-print("Pru=ice after discond =", price)
-print(f"Tax amount + ", tax)
+print("Subtotal = ", subtotal)
+print("Discond =  ", str(discount))
+print("Price after discound =", price)
+print(F"Tax amount + ", tax)

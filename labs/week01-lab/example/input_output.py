@@ -115,6 +115,7 @@ print(celsius, "degrees Celsius is", fahrenheit, "degrees Fahrenheit")
 length = float(input("Enter rectangle length: "))
 width = float(input("Enter rectangle width: "))
 area = length * width
+<<<<<<< HEAD
 print("The area of a rectangle with length", length, "and width", width, "is", area)
 
 """"
@@ -122,3 +123,6 @@ print("The area of a rectangle with length", length, "and width", width, "is", a
 sad
 
 """
+=======
+print("The area of a rectangle with length", length, "and width", width, "is", area)
+>>>>>>> upstream/main
